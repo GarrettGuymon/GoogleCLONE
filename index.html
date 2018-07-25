@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoogleCLONE</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+     <!--Top Bar-->
+     <header>
+         <ul id="t-right">
+             <li><a href="#">Gmail</a></li>
+             <lip><a href="#">Images</a></li>
+             <Button id="Button Nav">Sign In</Button>
+         </div>
+    </header>
+    <div id="wrapper">
+    <!--Logo-->
+        <div id="logo">
+            <img src="/Images/logo.png" alt="">
+        </div>
+    <!--Interactions-->
+    <script type="text/javascript">
+        function focusIt() {
+            var my_search_box = document.getElementbyId("SB");
+            my_search_box.focus();
+        }
+        onload = focusIt;
+    </script>
+        <div class="interactions">
+            <div class="SearchBar">
+                <input id="SB"type="text" placeholder=" ">
+            </div>
+            <div id="search_buttons">
+                <Button id="Button" onclick="search()">Google Search</Button>
+                <Button id="Button" class ="Button" name="google">I'm Feeling Lucky</Button>
+            </div>
+        </div>
+        </div>
+        <!--Bottom Text-->
+    <footer>
+        <ul id="b-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+        </ul>
+
+        <ul id="b-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
